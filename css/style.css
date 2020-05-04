@@ -8,7 +8,7 @@ debug {}
   .debug [class*="col-"] {
     background-color: lightcoral;
     border: 1px solid black;
-    height: 100px
+    height: 100px;
   }
 /* DEBUGG - end rules */
 
@@ -16,7 +16,7 @@ debug {}
 general-rules {}
   body {
     font-family: Verdana;
-    padding-top: 70px
+    padding-top: 70px;
   }
 
   section {
@@ -33,7 +33,7 @@ general-rules {}
   }
 
   .ms_section-secondary .ms_section-title {
-    color: #333
+    color: #333;
   }
 /* GENERAL RULES - end */
 
@@ -48,6 +48,10 @@ components {}
     text-align: center;
     color: white;
     padding: 32px 0;
+  }
+  .ms_wrapper {
+    width: 60%;
+    margin: 0 auto;
   }
 
   /* Portfolio */
@@ -67,12 +71,34 @@ components {}
     }
   }
 
-  /* About */
-  .ms_wrapper {
-    width: 60%;
-    margin: 0 auto;
+  /* Info */
+  .ms_footer-primary {
+    background-color: #3a546d;
+    height: 300px;
   }
+
+  .ms_footer-secondary {
+    background-color: #2c3e50;
+    height: 150px;
+  }
+
 /* COMPONENTS - end rules */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* NAVBAR - start rules */
 nav {}
