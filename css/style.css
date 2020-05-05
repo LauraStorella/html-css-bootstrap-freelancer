@@ -25,7 +25,7 @@ general-rules {}
 
   .ms_section-primary {
     background-color: #1abc9c;
-    color: #333;
+    color: white;
   }
 
   .ms_section-secondary {
@@ -54,6 +54,17 @@ components {}
     margin: 0 auto;
   }
 
+  /* Jumbotron */
+  .ms_jumbotron .ms_avatar img {
+    height: 300px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .ms_jumbotron {
+      padding: 48px 0;
+    }
+  }
+
   /* Portfolio */
   .ms_portfolio {
     text-align: center;
@@ -65,10 +76,10 @@ components {}
     border-radius: 10px;
   }
 
-  @media screen and (min-width: 768px) {
-    .ms_jumbotron {
-      padding: 48px 0;
-    }
+  .ms_portfolio-item img {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px
   }
 
   /* Info */
