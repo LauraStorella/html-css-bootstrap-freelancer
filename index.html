@@ -14,7 +14,7 @@
 
     <!-- Header - inizio -->
     <header>
-      <nav class="navbar navbar-fixed-top ms_navbar">
+      <nav class="navbar navbar-fixed-top ms_navbar" >
         <div class="container">
           <div class="row">
             <div class="col-xs-4 col-md-4 col-lg-4">
@@ -22,13 +22,20 @@
               </div>
             </div>
 
-            <div class="col-xs-8 col-md-8 col-lg-8">
-              <div class="ms_menu">
-                <ul class="ms_menu_links">
-                  <li><a href="#portfolio">PORTFOLIO</a></li>
-                  <li><a href="#about">ABOUT</a></li>
-                  <li><a href="#contacts">CONTACT</a></li>
-                </ul>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <div class="col-xs-8 col-md-8 col-lg-8">
+                <div class="ms_menu">
+                  <ul class="ms_menu_links">
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contacts">CONTACT</a></li>
+                  </ul>
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
