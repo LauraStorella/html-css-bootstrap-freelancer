@@ -72,6 +72,20 @@ components {}
     margin: 0 auto;
   }
 
+  .ms_jumbotron .ms_divider {
+    padding-bottom: 0;
+  }
+
+  .ms_divider {
+    padding-bottom: 30px;
+  }
+
+  .ms_divider::before,
+  .ms_divider::after {
+    content: "__________";
+  }
+
+
   /* Jumbotron */
   .ms_jumbotron .ms_avatar img {
     height: 300px;
@@ -98,6 +112,17 @@ components {}
     height: 300px;
     width: 100%;
     border-radius: 10px
+  }
+
+  /* About */
+  .ms_about .ms_dwnl-btn {
+    text-align: center;
+  }
+  .ms_about button {
+    background-color: #1abc9c;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 5px;
   }
 
   /* Contacts */
