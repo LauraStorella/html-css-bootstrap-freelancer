@@ -80,9 +80,22 @@ components {}
     padding-bottom: 30px;
   }
 
-  .ms_divider::before,
-  .ms_divider::after {
-    content: "__________";
+  .ms_section-primary .ms_divider::before,
+  .ms_section-primary .ms_divider::after {
+    content: '';
+    width: 150px;
+    height: 10px;
+    border-bottom: solid 5px white;
+    display: inline-block;
+  }
+
+  .ms_section-secondary .ms_divider::before,
+  .ms_section-secondary .ms_divider::after {
+    content: '';
+    width: 150px;
+    height: 10px;
+    border-bottom: solid 5px #2c3e50;
+    display: inline-block;
   }
 
 
